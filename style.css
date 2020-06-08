@@ -1,14 +1,19 @@
 body{
     background-color: #F6FAF3;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Miltonian Tattoo', cursive;
     color: #F6FAF3;
 }
 header{
     background-color: #718863;
     color: #F6FAF3;
     padding: 1vh 1vw;
-    margin: 1vh 0vw;
+    margin: 1vh 1vw;
     border-radius: 15px;
+    text-align: center;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Miltonian', cursive;
 }
 
 footer{
@@ -23,17 +28,17 @@ footer{
 
 div{
     padding: 1vh 1vw;
-    margin: 1vh 0vw;
+    margin: 1vh 1vw;
     border-radius: 15px;
 }
 
 img{
-    width: 25%;
+    width: 30%;
     border-radius: 40px;
+    padding: 2.5px;
 }
 
 #square{
-    background: 50% 50%;
     height: 250px;
     width: 250px;
 }
@@ -41,7 +46,7 @@ img{
 #wrapper{
     background-color: #C7E3B6;
     position: relative;
-    height: 100vh;
+    height: 200vh;
     text-align: center;
 }
 
@@ -51,10 +56,14 @@ img{
 }
 
 #ins_space{
-    float: left;
+    float: right;
 }
 
 #ins_ocean{
+    float: left;
+}
+
+#ins_mountain{
     float: right;
 }
 
