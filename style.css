@@ -67,3 +67,15 @@ img{
     float: right;
 }
 
+#ins_other{
+    float: right;
+}
+
+#ins_sources{
+    float: left;
+}
+
+a{
+    text-align: left;
+    text-decoration: wavy;
+}
