@@ -12,6 +12,10 @@ header{
     text-align: center;
 }
 
+#header{
+    font-size: 3em;
+}
+
 h1, h2, h3, h4{
     font-family: 'Miltonian', cursive;
 }
@@ -55,27 +59,35 @@ img{
     width: 43vw;
 }
 
-#ins_space{
+#space{
     float: right;
 }
 
-#ins_ocean{
+#ocean{
     float: left;
 }
 
-#ins_mountain{
+#mountain{
     float: right;
 }
 
-#ins_other{
+#other{
     float: right;
 }
 
-#ins_sources{
+#sources{
     float: left;
+}
+
+#my_sketches{
+    float: left;
+}
+
+ul{
+    text-align: left;
 }
 
 a{
-    text-align: left;
-    text-decoration: wavy;
+    color: #F6FAF3;
 }
+

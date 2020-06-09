@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tattoo Inspiration</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/mountain/day_night_upside_down.jpeg">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
@@ -13,16 +14,16 @@
 <body>
     <!-- Header -->
     <header>
-        <h1>Tattoo inspiration</h1>
+        <h1 id="header" >Tattoos</h1>
     </header>
 
     <!-- Inspiration, 2 divs inside 1 div-->
     <div id="wrapper">
-        <h2>Inspiration</h2>
+        <h1>Inspiration</h1>
 
         <!-- Space images-->
-        <div class="inspiration" id="ins_space">
-            <h3>Space</h3>
+        <div class="inspiration" id="space">
+            <h2>Space</h2>
             <img class="square" src="img/space/planets_minimalist.jpeg" alt="Minimalistic planets">
             <img class="square" src="img/space/moon_cloud.jpeg" alt="">
             <img class="square" src="img/space/spaceman.jpeg" alt="">
@@ -32,12 +33,12 @@
         </div>
         
         <!-- Ocean images-->
-        <div class="inspiration" id="ins_ocean">
-            <h3>Ocean</h3>
+        <div class="inspiration" id="ocean">
+            <h2>Ocean</h2>
             <img class="square" src="img/ocean/full_circle_ocean.jpeg" alt="Ocean tattoo">
-            <img class="square" src="img/ocean/ocean_paperboat.jpeg" alt="Ocean tattoo">
             <img class="square" src="img/ocean/ocean_circle_black.jpeg" alt="Ocean tattoo">
             <img class="square" src="img/ocean/ocean_circle_white.jpeg" alt="Ocean tattoo">
+            <img class="square" src="img/ocean/ocean_paperboat.jpeg" alt="Ocean tattoo">
             <img class="square" src="img/ocean/ocean_cloud_sun.jpeg" alt="Ocean tattoo">
             <img class="square" src="img/ocean/ocean_space.jpeg" alt="Ocean tattoo">
             <img class="square" src="img/ocean/sunset_person_wave.jpeg" alt="Ocean tattoo">
@@ -45,8 +46,8 @@
         </div>
 
         <!-- Mountain images-->
-        <div class="inspiration" id="ins_mountain">
-            <h3>Mountain</h3>
+        <div class="inspiration" id="mountain">
+            <h2>Mountain</h2>
             <img class="square" src="img/mountain/mountain_black.jpeg" alt="Mountains in circle inverted coloring">
             <img class="square" src="img/mountain/day_night_upside_down.jpeg" alt="Day and night upside-down">
             <img class="square" src="" alt="">
@@ -56,24 +57,32 @@
         </div>
 
         <!-- Other images-->
-        <div class="inspiration" id="ins_other">
-            <h3>Other</h3>
+        <div class="inspiration" id="other">
+            <h2>Other</h2>
             <img class="square" src="img/other/black_and_white_circle.jpeg" alt="solid black circle connected to a cirle made by a simple line">
             <img class="square" src="img/other/wavy_circles.jpeg" alt="Wavy circles">
             <img class="square" src="img/other/birds.jpeg" alt="Tree birds in a circle">
             <img class="square" src="img/other/fire.jpeg" alt="Fire">
             <img class="square" src="img/other/sun_moon.jpeg" alt="Sun and moon">
-            <img class="square" src="" alt="">
+            <img class="square" src="img/other/circle_sunset.jpeg" alt="">
         </div>
 
         <!-- Good Sources for inspiration -->
-        <div class="inspiration" id="ins_sources" id="abc">
-            <h3>Good sources for inspiration </h3>
-            <a href="https://www.pinterest.dk">Pinterest</a>
+        <div class="inspiration" id="sources" id="abc">
+            <h2>Good sources for inspiration </h2>
+            <ul>
+                <li><a target="_blank" href="https://www.pinterest.dk">Pinterest</a></li>
+                <li><a target="_blank" href="https://www.google.dk/imghp?hl=da&tab=wi&ogbl">Google Images</a></li>
+            </ul>
+        </div>
+
+        <!-- My sketches -->
+        <div class="inspiration" id="my_sketches">
+            <h2>My sketches</h2>
+            <img src="img/my_sketches/waves_stars.jpeg" alt="Waves and stars">
         </div>
     </div>
 
-    
 
     <!-- Footer -->
     <footer>
